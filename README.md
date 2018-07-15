@@ -1,6 +1,8 @@
 # docker-ccat
-[![](https://dockerbuildbadges.quelltext.eu/status.svg?organization=tavarespatrick&repository=ccat)](https://hub.docker.com/r/tavarespatrick/ccat/builds/)  
-`https://dockerbuildbadges.quelltext.eu/status.svg?organization=tavarespatrick&repository=ccat`
+
+[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/tavarespatrick/ccat/)
+
+[![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/tavarespatrick/ccat/builds/)
 
 ## Information
 

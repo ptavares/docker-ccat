@@ -1,5 +1,6 @@
 # docker-ccat
-[![Docker Hub][docker-image]][docker-url]
+[![](https://dockerbuildbadges.quelltext.eu/status.svg?organization=tavarespatrick&repository=ccat)](https://hub.docker.com/r/tavarespatrick/ccat/builds/)  
+`https://dockerbuildbadges.quelltext.eu/status.svg?organization=tavarespatrick&repository=ccat`
 
 ## Information
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-CCAT_VERSION=1.1.0
+CCAT_VERSION=master
 DOCKER_IMAGE=tavarespatrick/docker-ccat:${CCAT_VERSION}
 
 if [ $# -lt 1 ];

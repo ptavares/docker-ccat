@@ -2,7 +2,7 @@
 
 [![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/tavarespatrick/ccat/)
 
-https://dockerbuildbadges.quelltext.eu/status.svg?organization=tavarespatrick&repository=ccat
+[![](https://dockerbuildbadges.quelltext.eu/status.svg?organization=tavarespatrick&repository=ccat)](https://hub.docker.com/r/tavarespatrick/ccat/builds/)
 
 ## Information
 

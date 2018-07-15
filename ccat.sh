@@ -1,6 +1,7 @@
 #!/bin/bash
-CCAT_VERSION=1.10
-
+#CCAT_VERSION=1.10
+CCAT_VERSION=latest
+DOCKER_IMAGE=tavarespatrick/docker-ccat:${CCAT_VERSION}
 
 if [ $# -lt 1 ];
 then
@@ -18,9 +19,9 @@ do
     base=${var##*/}
     if [ ${path} == ${base} ]
     then
-        docker run -ti --rm -v $(pwd)/:/ccat alpine/ccat:${CCAT_VERSION} $var
+        docker run -ti --rm -v $(pwd)/:/ccat ${DOCKER_IMAGE} $var
     else
-        docker run -ti --rm -v $(pwd)/${path}:/ccat alpine/ccat:${CCAT_VERSION} ${base}
+        docker run -ti --rm -v $(pwd)/${path}:/ccat ${DOCKER_IMAGE} ${base}
     fi
     echo
 done
